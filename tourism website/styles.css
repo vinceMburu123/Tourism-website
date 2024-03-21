@@ -1,0 +1,114 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .hero {
+    background-image: url("background-img.jpg");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+    background-blend-mode: multiply; 
+  }
+  p{
+    text-align: center;
+  }
+  .hero-content {
+    padding: 50px; 
+    color: #fff;
+    text-align: center; 
+  }
+  
+  .hero-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+  h2{
+    text-align: center;
+  }
+
+ 
+
+.wildlife-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: repeat(5, 1fr); 
+    gap: 10px; 
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+
+  
+  
+  
+  .header{
+    color: aqua;
+  }
+  header {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  .nav-links{
+    display: flex;
+  }
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: skyblue;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap; 
+  }
+  
+  .item {
+    flex: 1 0 33.33%; 
+    margin: 10px; 
+  }
+  
